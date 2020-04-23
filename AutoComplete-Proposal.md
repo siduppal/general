@@ -6,18 +6,7 @@ When there are thousands of choices in a menu (like assigning a task to someone,
 
 ![](https://cdn.productboard.com/production/attachments/d9a78e01fb63f8502884f5361982c48d4d913acb491fef0ed623d958d6356bb2/portal_cover/DynamicSearchable.gif)
 
-
-## Status
-
-This feature is currently **blocked** while we work on a formalized transport contract that allows Adaptive Cards to make an authenticated connection to a backend.
-
-In the interim we can work on a proposal based on a Microsoft Teams feature that enables this functionality in Messaging Extensions. 
-
-Please take a look at the [Teams Search Command](https://docs.microsoft.com/en-us/microsoftteams/platform/messaging-extensions/how-to/search-commands/respond-to-search?tabs=json) for reference.
-
-## Open Issues
-
-- [ ] Need to discuss the combinations of `style` and `isMultiSelect` with this
+This proposal builds on the one [here](https://github.com/microsoft/AdaptiveCards/issues/3924).
 
 ## Requirements
 
@@ -25,10 +14,6 @@ Please take a look at the [Teams Search Command](https://docs.microsoft.com/en-u
 2. The backend returns data in the correct shape (described below)
 3. Single-select only for v1
 4. An Action may be invoked when a choice is selected
-
-## Spec/schema
-
-Coming soon
 
 ## Example
 
